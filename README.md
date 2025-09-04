@@ -1,4 +1,4 @@
-# 🌐 Sammy Crayz Portfolio
+# 🌐 Sammy's Portfolio Site
 
 Welcome to my personal portfolio site! Built to showcase my projects, skills, and background in both tech and creativity.
 
