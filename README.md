@@ -1,23 +1,28 @@
-# 🌐 Sammy's Portfolio Site
+# Sammy Crayz Portfolio 💼✨
 
-Welcome to my personal portfolio site! Built to showcase my projects, skills, and background in both tech and creativity.
+This is my personal portfolio site showcasing who I am as a developer, creative, and producer.
 
-## 🧠 What’s Inside
-- About Me section
-- Contact information
-- Projects showcase (more coming soon!)
-- Clean, responsive HTML/CSS layout
+## 🚀 Live Site
+[View the site](https://sammycrayz.github.io/portfolio-site/) 🌐
 
-## 💻 Tech Stack
+## 🛠️ Built With
 - HTML5
 - CSS3
+- JavaScript
 
-## 🚀 Live Demo
-🔗 [View the site](https://sammycrayz.github.io/sammy-portfolio/)
+## 🌑 Features
+- Responsive design
+- Dark mode toggle
+- Smooth scrolling navigation
+- Tech stack section
+- Project cards with links
+- Contact form
 
-## 🛠 Upcoming Additions
-- Project cards with screenshots and links
-- Animated scroll effects
-- Embedded resume download
+## 📸 Screenshot
+![Screenshot of portfolio](./screenshot.png)
 
----
+## 📂 How to Run Locally
+```bash
+git clone https://github.com/sammycrayz/portfolio-site.git
+cd portfolio-site
+open index.html
