@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sammy Crayz | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
   <header>
@@ -17,7 +19,7 @@
     </nav>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I’m a Computer Science student graduating Fall 2025 with experience in web design, QA, and support roles. I love blending creative and technical skills to solve real-world problems.</p>
     <a href="Sam_Appiah_Resume.pdf" download class="resume-btn">
@@ -25,16 +27,16 @@
 </a>
   </section>
 
-  <section id="projects">
+  <section id="projects" data-aos="fade-down">
   <h2>Projects</h2>
-  <div class="project-card">
+  <div class="project-card" data-aos="zoom-in">
     <h3>🐞 Bug Tracker</h3>
     <p>A simple issue tracking app built with HTML, CSS, and JavaScript. Supports localStorage and basic state management.</p>
     <a href="https://sammycrayz.github.io/bug-tracker-demo/" target="_blank">🌐 Live Demo</a> |
     <a href="https://github.com/sammycrayz/bug-tracker-demo" target="_blank">💾 GitHub Repo</a>
   </div>
 
-  <div class="project-card">
+  <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
     <h3>🌐 Portfolio Site</h3>
     <p>My personal portfolio website showcasing skills, contact info, and project work.</p>
     <a href="https://sammycrayz.github.io/sammy-portfolio/" target="_blank">🌐 Live Demo</a> |
@@ -42,7 +44,7 @@
   </div>
 </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="flip-left">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:appiahs485@gmail.com">appiahs485@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/sammycrayz" target="_blank">github.com/sammycrayz</a></p>
@@ -52,5 +54,12 @@
   <footer>
     <p>&copy; 2025 Sammy Crayz. All rights reserved.</p>
   </footer>
+
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  
 </body>
 </html>
