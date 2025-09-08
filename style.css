@@ -52,3 +52,19 @@ footer {
 .project-card a:hover {
   text-decoration: underline;
 }
+
+.resume-btn {
+  display: inline-block;
+  background-color: #1f8ef1;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #0e6bd8;
+}
