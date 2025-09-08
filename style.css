@@ -90,3 +90,10 @@ footer {
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
+
+.mini-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 10px;
+}
