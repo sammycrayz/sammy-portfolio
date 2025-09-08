@@ -1,28 +1,38 @@
-# Sammy Crayz Portfolio 💼✨
+# 💼 Sammy Crayz Portfolio
 
-This is my personal portfolio site showcasing who I am as a developer, creative, and producer.
+Welcome to my personal developer portfolio — a clean, responsive site that showcases who I am as a creative, a coder, and a collaborator. Built to grow alongside my skills and future projects.
 
 ## 🚀 Live Site
-[View the site](https://sammycrayz.github.io/portfolio-site/) 🌐
+🌐 https://sammycrayz.github.io/portfolio-site/
 
 ## 🛠️ Built With
-- HTML5
-- CSS3
-- JavaScript
+- HTML5  
+- CSS3  
+- JavaScript  
 
-## 🌑 Features
-- Responsive design
-- Dark mode toggle
-- Smooth scrolling navigation
-- Tech stack section
-- Project cards with links
-- Contact form
+## ✨ Features
+- Smooth-scrolling navigation  
+- Responsive design across all devices  
+- Dark mode toggle 🌙  
+- Dedicated tech stack section  
+- Project showcase with direct links  
+- Scroll-to-section nav and internal anchor linking  
+- Contact form with mailto: fallback  
 
-## 📸 Screenshot
-![Screenshot of portfolio](./screenshot.png)
+## 🧪 How to Run Locally
 
-## 📂 How to Run Locally
-```bash
-git clone https://github.com/sammycrayz/portfolio-site.git
-cd portfolio-site
-open index.html
+1. Clone the repository  
+   `git clone https://github.com/sammycrayz/portfolio-site.git`
+2. Open the folder  
+   `cd portfolio-site`
+3. Launch the site  
+   - On Mac: `open index.html`  
+   - Or just double-click `index.html`
+
+## 🔮 In Progress / Coming Soon
+- Resume download button  
+- Spotify Canvas project carousel 🎵  
+- Interactive timeline section (events, releases, or milestones)  
+- Embed YouTube/Spotify media into project cards  
+- Mobile menu dropdown  
+- Scroll-triggered animations (AOS.js)  
