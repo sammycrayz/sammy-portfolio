@@ -68,3 +68,14 @@ footer {
 .resume-btn:hover {
   background-color: #0e6bd8;
 }
+
+.fade-in-on-load {
+  opacity: 0;
+  animation: fadeInLoad 1s ease-in-out forwards;
+}
+
+@keyframes fadeInLoad {
+  to {
+    opacity: 1;
+  }
+}
